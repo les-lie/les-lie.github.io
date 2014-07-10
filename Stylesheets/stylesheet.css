@@ -1,0 +1,96 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0; 
+	}
+
+body {
+		background: url(greengraph.png);font-family: 'Bree Serif' serif; 
+		font-size: 16px;line-height: 24px;color: #0b4409; font-style: bold;
+	}
+a {
+		color: #0b4409; font-style: bold; 
+	}
+a:hover {
+		color: #105896;
+	}
+#container header {
+		/*background: #ffdbdb; overflow: hidden;width: 100%; margin: 0;
+		position: fixed; left:0px; height: 125px;list-style: none; position: fixed;*/
+		top:0px; background: #ffdbdb; position: center;
+		left: 100px;
+		right:100px;
+		margin-right: auto;
+		margin-left: auto;
+		width:960px;
+		height:200px;
+		z-index:999999; border-color: green; border-width: 20px; border-style: groove;
+	}
+header a, h2 a {
+		color: #0b4409; font-style: bold; font-family: 'Bree Serif', serif; 
+		text-align: center; 
+	}
+#navi li{
+		list-style-type: none;font-size: 20px;font color:#0b4409; 
+	}	
+#container h1{
+		font-size: 50px;font-family: 'Berkshire Swash', cursive;
+		color:green ; text-align: center; margin-top: 25px;
+	}
+#container h3{
+	font-size: 24px;font-family: 'Bree Serif', serif;
+	font color:#0b4409 ; text-align: center;
+}
+#container {
+		width: 975px; margin: 0 auto; padding: 48px 22px 0 22px;		
+	}
+#content {
+		float: left; width: 526px;margin: 0 98px 0 0;position: absolute;top:240px;
+	}
+#content article {
+		margin: 0 0 67px 0;		
+	}
+#content article h2 {
+			font-size: 30px; margin: 0 0 29px 0;font-weight: normal;
+	}
+#content p {
+		margin: 0 0 24px 0;
+	}	
+#content .postinfo {
+		list-style: none; overflow: hidden;
+	} 
+#content .postinfo li {
+		float: left; width: 136px; margin: 0 20px 0 0;font-style: italic; color: #a2a2a2;
+	}
+#sidebar {
+		width: 292px; float: right;padding: 4px 0 0 0;
+	}
+#sidebar h3 {
+		font-size: 30px; font-weight: normal; margin: 0 0 25px 0;
+	}		
+#sidebar ul {
+		list-style: none;
+	}
+#sidebar section {
+		margin: 0 0 47px 0;
+	}
+#about {
+	width: 136px; float: none; margin: 0 20px 0 0; top:300px;position: absolute;;
+}
+#sidebar #about a.more {
+		display: block; text-align: right;
+	}	
+#sidebar #categories {
+		width: 136px; float: left; margin: 0 20px 0 0;top:600px;position: absolute;
+	}
+#header, #footer {		
+        float:left;	padding:15px 0;	min-width:100%;
+	}
+#footer-section {
+		background: #ffdbdb; overflow: hidden;width: 100%; margin: 0;
+		position: fixed; bottom:0px;height: 117px;list-style: none; text-align: center;
+		border-style: groove;border-color: green;border-width: 10px; font-family: 'Bree Serif' serif;
+		}	
+#footer {width: 916px; margin: 0 auto; padding: 48px 22px 0 22px;
+	}		
+#back-top {
+		float: none; font-size: 20px;text-align: center ; color: ;
+	}	
