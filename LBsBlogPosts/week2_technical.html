@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Leslie's DBC Page</title>
+
+<link href="Stylesheets/week1_cultural.css" rel="stylesheet" />
+
+<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Berkshire+Swash:cursive, serif' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+<div id="container">
+
+<header>
+	<h1><a href="#" title="Homepage">Unicorns Prance By</a></h1>
+	<br>
+	<h3>A DBC BLOG</h3>
+	<nav>
+		<ul id='navi'>
+			<li><a href="http://les-lie.github.io">Home</a></li>
+			<li><a href="LBsBlogPosts/index.html">Blog</a></li>
+			<li><a href="LBsBlogPosts.DBC2.html">About</a></li>
+			<li><a href="#">TBD</a></li>
+		</ul>
+	</nav>
+</header>
+
+
+<div id="content" role="main">
+<br>
+<br>
+
+	<article>
+		<h2><a href="#">Week 2 Technical Reflections</a></h2>
+		
+		<p>Positioning elements on your page is essential to good design. In addition, you want your code to be easily read by other developers, so it is important to make sure your elements are positioned correctly to facilitate editing and collaboration.<br>
+
+		
+		<h3>STATIC</h3>
+		<p>In this example, the element we are using is an image. If you place a link to the image inside your CSS without giving it any explicit directions on where to go and how to get there, it will randomly lie somewhere on the page and possibly obstruct anything that is underneath it. We call this STATIC positioning, and it order to achieve it, do nothing. This is the default position of any element defined on your CSS page.</p><br>
+
+
+		<img src="Images/cat reading.jpeg">
+
+		<h3>RELATIVE</h3>
+		<p>Using a value of RELATIVE when positioning your element means that the element will be placed exactly the same as STATIC unless you specify, top, right, bottom and/or left parameters.  See image shifted right.</p><br>
+
+		<IMG STYLE="position:relative; TOP:60px; LEFT:500px;" src="Images/cat reading.jpeg" >
+		
+		<h3>FIXED</h3>
+		<p></p>A FIXED element is positioned on the page relative to the viewable area- that is, when a FIXED element is defined with top, right, bottom, and/or left parameters, it stays put.  It always stays in the same place even if the page is scrolled. See upper right corner.</p><br>
+
+
+		<IMG STYLE="position:fixed; top:0px; right:0px;" src="Images/cat reading.jpeg" >
+		
+
+		<h3>ABSOLUTE</h3>
+		<p>Positioning the element with a value of ABSOLUTE assigns the element a position releative the the previous element that has a position defined in CSS. Positioning your image (element) with a value of ABSOLUTE, you are indeed giving CSS instructions on where you would like the image placed on the page. You are giving instruction that the image is to be placed on the page relative to the last element that received explicit CSS instruction. If there is not previous element to use as a reference point, the value ABSOLUTE positions the element relative to the document BODY. See bottom of page corner. Image is placed relative to the FIXED image</p>
+
+
+		<IMG STYLE="position:absolute; down:300px; LEFT:500px;" src="Images/cat reading.jpeg" >
+		
+
+		  <br>
+
+		</p>
+		
+		<ul class="postinfo">
+			<li>July 2014</li>
+			<li>Posted in <a href="#">Blog</a></li>
+			<li><a href="#">Continue Reading &raquo;</a></li>
+		</ul>
+	</article>
+
+	</div>
+
+<aside id="sidebar">
+
+	<section id="about">
+		<img src="Images/unicorn.jpg" height="125px" width="125px" text align="center"alt="unicorn">
+		<h3>Leslie is...</h3>
+		<p>A Phase 0 DBC boot with a vision and a plan <a href="about.html" class="more">Find out more &raquo;</a></p>
+	</section>
+	
+	<section id="categories">
+		<h3>Categories</h3>
+		<ul>
+			<li><a href="#">Culture</a></li>
+			<li><a href="#">Technical</a></li>
+			<li><a href="#">Instruction</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Inspiration</a></li>
+			<li><a href="#">Humor</a></li>
+			<li><a href="#">Photos</a></li>
+		</ul>
+	</section>
+
+	</aside>
+
+</div>
+
+<div id="footer-section">
+
+		<footer>
+
+			<p> Leslie Bell   DBC 2014   P_0   </p>
+			<a href="http://les-lie.github.io">Leslie's DBC Homepage</a>
+			<p id="back-top"><a href="#">   Back to top</a></p>
+			
+		</footer>
+
+		</div>	
+	</body>
+</html>	
