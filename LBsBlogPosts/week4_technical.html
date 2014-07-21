@@ -37,7 +37,7 @@ Current Page: Home  >>  <a href="#">Link to page name when you figure out how</a
 <h2>It Takes As Many As It Takes.</h2>
 <br><br>
 
-<p><IMG STYLE= text-align:left; LEFT:"0px"; HEIGHT"145" WIDTH="95" src="Images/enumerable.jpg" ALIGN="left">Enumerable#cycle is a concept that took me about 30 minutes of reading and re-reading to understand. It is an incredibly powerful module that The resource that helped me understand it best is <a href="http://www.globalnerdy.com/2008/07/06/enumerating-enumerable-enumerablecycle/"> Global Nerdy</a> Global Nerdy asserts that "Given a collection, enumerable#cycle creates an infinitely-repeating ordered source of its items, AND it expets an optional block to act on the items in the infinitely repeating until the break statement is encountered.." Enumerable#cycle can be called on any enumerable object (such as a range, hash, or array). When called, a block will be run, either "n"times (Passing an argument to "cycle" will completely iterate through the collection that many times.)or forever if no number is passed as an argument. <br> 
+<p><IMG STYLE= text-align:left; LEFT:"0px"; HEIGHT"145" WIDTH="95" src="Images/enumerable.jpg" ALIGN="left">Enumerable#cycle is a concept that took me quite a bit of reading and re-reading to understand. It is an incredibly powerful module that is useful for executing a function several times on objects inside an array. The resource that helped me understand enumerable#cycle best was <a href="http://www.globalnerdy.com/2008/07/06/enumerating-enumerable-enumerablecycle/"> Global Nerdy.</a> Global Nerdy asserts that "Given a collection, enumerable#cycle creates an infinitely-repeating ordered source of its items, AND it expets an optional block to act on the items in the infinitely repeating until the break statement is encountered.." Enumerable#cycle can be called on any enumerable object (such as a range, hash, or array). When called, a block will be run, either "n"times (Passing an argument to "cycle" will completely iterate through the collection that many times.)or forever if no number is passed as an argument. <br> 
 
 1arr.cycle(2) { |i| puts i }<br>
 2first<br>
@@ -76,6 +76,8 @@ Wednesday<br>
 Thursday<br>
 Friday<br>
 => nil</p>
+
+<p>
 
 <p>Another great resource for learning about Enumerator#cycle is <a href="http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/">Sitepoint.com. </a>Check it out!</p>
 
