@@ -1,0 +1,139 @@
+body { 
+font-family: Arial, sans-serif; 
+line-height: 1.4;
+font-size: 14px;
+background: #ebfff2 url(Images/bg.png) repeat-x;
+margin: 0;
+padding: 0;
+}
+
+a { color: #856867; text-decoration: none;}
+a:hover { text-decoration: underline; }
+h1 { margin: 0; padding: 0; }
+h2 { margin: 0; padding: 0; }
+
+#wrap { 
+width: 800px;
+margin: 0 auto;
+}
+
+#header {
+height: 80px;
+line-height: 80px;
+background: url(backgroundlmb4.jpg) repeat-x;
+}
+#header h1 {
+margin: 0;
+padding: 0 0 0 30px;
+font-weight: 100;
+font-size: 40px;
+letter-spacing: -2px;
+position: absolute;
+}
+#header h1 a { text-decoration: none; color: #856867; }
+#header h1 a:hover { text-decoration: none; border-bottom: 1px solid #856867; }
+
+.menu {
+padding: 0 20px 0 0;
+height: 60px;
+line-height: 60px;
+float: right;
+text-transform: uppercase;
+}
+
+.menu ul {
+list-style-type: none;
+margin: 0;
+}
+.menu ul li {
+display: block;
+float: left;
+}
+.menu ul li a {
+display: block;
+padding: 0 10px 0 10px;
+text-decoration: none;
+color: #4ac276;
+font-weight: 100;
+}
+.menu ul li a:hover {
+color: #856867;
+}
+
+/*#breadcrumbs {
+background: url(images/breadcrumbs.png) no-repeat;
+height: 50px;
+line-height: 40px;
+color: #323232;
+padding: 0 0 0 30px;
+}*/
+
+#top { background: url(images/top.png) no-repeat; padding: 10px 0; }
+
+#contentwrap {
+background: url(images/content.png) repeat-y;
+padding: 0 30px;
+}
+
+#content {
+float: left;
+width: 470px;
+margin-top: 10px;
+text-align: justify;
+}
+#content h2 {
+margin: 0;
+color: #856867;
+line-height: 30px;
+font-size: 28px;
+font-weight: 100;
+text-align: center;
+}
+
+#content p { padding: 0 0 10px 0; color: #856867;}
+#content ul { padding: 0 20px 10px 30px; }
+
+#sidebar {
+float: right;
+width: 250px;
+background: #4ac276;
+margin-top: 10px;
+}
+
+#sidebar h3 {
+height: 30px;
+line-height: 30px;
+font-weight: 600;
+font-size: 12px;
+margin: 0; padding: 0 0 0 10px; 
+color: #fff;
+background: url(images/sidebarh3.png) no-repeat;
+}
+
+#sidebar p { padding: 0 10px 10px 10px; color: #232323; }
+
+#sidebar ul {
+padding: 10px 0 25px 30px;
+margin: 0;
+list-style-type: circle;
+color: #303553;
+}
+
+#sidebar ul li {
+padding: 0;
+margin: 0;
+}
+
+#sidebar ul ul { padding: 2px 0 2px 20px; }
+
+#footer { 
+background: url(images/footer.png) no-repeat;
+height: 70px;
+line-height: 70px;
+text-align: center;
+color: #111;
+font-size: 12px;
+}
+#footer p { padding: 0; margin: 0; }
+#footer a { color: #111; }
+#footer a:hover { text-decoration: underline; }
